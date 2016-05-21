@@ -1,0 +1,6 @@
+Things I'm learning
+
+Wrapping a list of tupples with dict() turns them into a dictionary
+
+a = [("Daniel", 23), ("Ronnie", 20]
+dict(a) gives a dictionary, cool
