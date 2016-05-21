@@ -4,3 +4,13 @@ Wrapping a list of tupples with dict() turns them into a dictionary
 
 a = [("Daniel", 23), ("Ronnie", 20]
 dict(a) gives a dictionary, cool
+
+to declare a tuple with only onle element, use a comma
+
+a = (4,)
+
+Gotta be careful with all those nested returns, can gives funny errors
+
+Attempted to pass a dict for a group of keyword arguments, but this got thrown into args, so kwargs has to be passed one by one.
+
+
