@@ -13,4 +13,13 @@ Gotta be careful with all those nested returns, can gives funny errors
 
 Attempted to pass a dict for a group of keyword arguments, but this got thrown into args, so kwargs has to be passed one by one.
 
+warning is not working when the category of Deprecation warning is passed
+
+still don't know what's going with caching in a decorator. If a decorator is called everytime, aren't the variables being reassigned everytime?
+
+Man, super annoyed at that decorator stuff on memoization
+
+time to do exercises
+
+
 

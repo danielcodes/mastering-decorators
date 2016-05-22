@@ -9,6 +9,7 @@ def accepts(*types, **keywords):
         @functools.wraps(fn)
 
         # as typical, we have the function that is going to be returned
+        # this part always throws me off, the args and kwargs part
         def inner(*args, **kwargs):
             print("the types to check for are ", types)
             print("the passed args are ", args)
